@@ -1,0 +1,29 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>gr.dgk.utils.bioinformatics</groupId>
+	<artifactId>jGenes-utils</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<developers>
+		<developer>
+			<name>Dimitris G. Kelaidonis</name>
+			<email>kelaidonis@gmail.com</email>
+			<organization>IoTLabsGR</organization>
+			<organizationUrl>https://www.linkedin.com/in/dgkelaidonis/</organizationUrl>
+		</developer>
+	</developers>
+	<!-- project specific properties -->
+	<properties>
+		<java.version>1.8</java.version>
+	</properties>
+	<dependencies>
+		<!-- JUnit for enabling UniTest on our code -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.10</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+</project>
