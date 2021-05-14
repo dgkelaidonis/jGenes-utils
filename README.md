@@ -2,8 +2,11 @@
 Java code utils for genes decoding and bioinformatics applications for genomics. The ACGT constitutes the four types of bases found in a DNA molecule.
 ## Where it is applicable
 The given open-source utils, may be used for processing sequences of ‘DNA atcg’.
-ACGT is an acronym for the four types of bases found in a DNA molecule: adenine (A), cytosine (C), guanine (G), and thymine (T). A DNA molecule consists of two strands wound around each other, with each strand held together by bonds between the bases. Adenine pairs with thymine, and cytosine pairs with guanine. For the genomics applications, they are used millions of ACGT combinations for performing experiments towards the genomic therapies. 
-The deep analysis of the given combinations, constitutes a very important step for the bio-scientists, to ensure the success of the experiment. Invalid pairs, loops’ on sequences, asymmetric/symmetric sequences, etc., constitutes some of parts that should be exam before an experiment start. This java package, provides such basic operations, to help biologists to efficiently process their sequences developments.
+ACGT is an acronym for the four types of bases found in a DNA molecule: adenine (A), cytosine (C), guanine (G), and thymine (T). A DNA molecule consists of two strands wound around each other, with each strand held together by bonds between the bases. Adenine pairs with thymine, and cytosine pairs with guanine. 
+
+For the genomics therapies, they are used millions of ACGT combinations for performing experiments towards the genomic therapies. The deep analysis of the given combinations, constitutes a very important step for the bio-scientists, to ensure the success of the experiment. Invalid pairs, loops’ on sequences, asymmetric/symmetric sequences, etc., constitutes some of parts that should be exam before an experiment start. 
+
+This java package, provides such basic operations, to help biologists to efficiently process their sequences developments.
 
 ## Package overview
 The open-source version of this utilities package, includes the very basic operations that are used by biologists and bioinformatics applications. In particular,
@@ -15,14 +18,11 @@ The provided methods, are based on streaming data-sourcing, to allow the real-ti
 ## Indicative examples
 Finding potential loops on sequences with even number of letters. Such sequences are used as primers for experiments. A loop among the bases may destroy the overall experiment and the operation of a primer. Thus the avoidance of the loops during the design phase, constitutes an important factor for the success. An indicative output of the check on a sequence, is shown below. The method 'checkPrimerForLoops(str)', gets as input the and it return the followings:
 
------------------------------------------------------------------------------------------------
 | T| A| G| C| G| C| T| T| G| G| C| A| T| A| C| T| G| T| A| T| C| T| A| T| A| T
 | 1| 2| 3| 4| 5| 6| 7| 8| 9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26
------------------------------------------------------------------------------------------------
 Check two half parts: <TAGCGCTTGGCAT> | <ACTGTATCTATAT>
 T-A at [Left=8, Right=19]
 T-A at [Left=13, Right=14]
-----------------
 Total number=2
 
 ## Reusability options
