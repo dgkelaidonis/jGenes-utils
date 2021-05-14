@@ -1,5 +1,6 @@
 # jGenes-utils ACGT analyser
-Java code utils for genes decoding and bioinformatics applications for genomics. The ACGT constitutes the four types of bases found in a DNA molecule.
+Java code utils for genes decoding and bioinformatics applications for gene therapies. Analyze the million of ACGT bases sequences, using the java processing power. The 'ACGT' constitutes the four types of bases found in a DNA molecule.
+
 ## Where it is applicable
 The given open-source utils, may be used for processing sequences of ‘DNA atcg’.
 ACGT is an acronym for the four types of bases found in a DNA molecule: adenine (A), cytosine (C), guanine (G), and thymine (T). A DNA molecule consists of two strands wound around each other, with each strand held together by bonds between the bases. Adenine pairs with thymine, and cytosine pairs with guanine. 
