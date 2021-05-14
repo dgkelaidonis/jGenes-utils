@@ -22,12 +22,9 @@ Finding potential loops on sequences with even number of letters. Such sequences
 
 | 1| 2| 3| 4| 5| 6| 7| 8| 9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26
 
-Check two half parts: <TAGCGCTTGGCAT> | <ACTGTATCTATAT>
-
+Check two half parts: 'TAGCGCTTGGCAT' | 'ACTGTATCTATAT'
 T-A at [Left=8, Right=19]
-
 T-A at [Left=13, Right=14]
-
 Total number=2
 
 ## Reusability options
