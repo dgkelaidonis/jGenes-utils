@@ -19,10 +19,15 @@ The provided methods, are based on streaming data-sourcing, to allow the real-ti
 Finding potential loops on sequences with even number of letters. Such sequences are used as primers for experiments. A loop among the bases may destroy the overall experiment and the operation of a primer. Thus the avoidance of the loops during the design phase, constitutes an important factor for the success. An indicative output of the check on a sequence, is shown below. The method 'checkPrimerForLoops(str)', gets as input the and it return the followings:
 
 | T| A| G| C| G| C| T| T| G| G| C| A| T| A| C| T| G| T| A| T| C| T| A| T| A| T
+
 | 1| 2| 3| 4| 5| 6| 7| 8| 9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26
+
 Check two half parts: <TAGCGCTTGGCAT> | <ACTGTATCTATAT>
+
 T-A at [Left=8, Right=19]
+
 T-A at [Left=13, Right=14]
+
 Total number=2
 
 ## Reusability options
