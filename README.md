@@ -1,4 +1,4 @@
-# jGenes-utils ACGT analyser
+# jGenes-utils / ACGT analyser
 Java code utils for genes decoding and bioinformatics applications for gene therapies. Analyze the million of ACGT bases sequences, using the java processing power. The 'ACGT' constitutes the four types of bases found in a DNA molecule.
 
 ## Where it is applicable
