@@ -12,6 +12,8 @@ mvnw.cmd
 .apt_generated_tests/
 .gitignore
 target/
+Main.java
+primer*
 
 # Allow
 !src/**/*
