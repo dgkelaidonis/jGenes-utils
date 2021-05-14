@@ -35,8 +35,8 @@ Total number=2
 For more examples, you may execute the UniTest that are prvided with the current project.
 
 
-## How to use
-Import the PrimerUtil.class into your development, and do direct call with static access on the provided methods. Depending on your deployment, you may use either the console (string) output result or the File output result.
+## How to use it
+Import the PrimerUtils.class into your development, and do direct call with static access on the provided methods. Depending on your deployment, you may use either the console (string) output result or the File output result.
 
 Recommendation: for webservices/microservices/REST-APIs, please use the methods that return string results, and packed the string output into appropriate response messages. For local runs (e.g. on your pc), you may use the methods that source and return as result, files. This will speed up the processing and it will ensure that you will not lost any part of the analysed data (e.g. thousands of lines that cannot be cached, etc.).
 
