@@ -12,10 +12,9 @@ mvnw.cmd
 .apt_generated_tests/
 .gitignore
 target/
-Main.java
+Main*
 primer*
 
 # Allow
 !src/**/*
-!certificates/**
 !pom.xml
